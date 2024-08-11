@@ -22,7 +22,7 @@ async def start_handler(cient: Bot, message: Message|CallbackQuery):
     )
 
     buttons = [[
-        InlineKeyboardButton('My Father 🧑', url='https://t.me/kichuxd),
+        InlineKeyboardButton('My Father 🧑', url='https://t.me/kichuxd'),
         InlineKeyboardButton('About 📕', callback_data='about')
         ],[
         InlineKeyboardButton('Help 💡', callback_data='help'),
