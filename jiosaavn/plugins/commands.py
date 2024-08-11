@@ -18,17 +18,17 @@ async def start_handler(cient: Bot, message: Message|CallbackQuery):
         "- Search for songs, albums, playlists, and artists\n"
         "- Download your favorite tracks directly to Telegram\n"
         "- Explore various features tailored to enhance your music experience\n\n"
-        "**Maintained By:** [Anonymous](https://t.me/Ns_AnoNymous)"
+        "**Maintained By:** [DramaShip](https://t.me/Dramaship)"
     )
 
     buttons = [[
-        InlineKeyboardButton('My Father 🧑', url='https://t.me/Ns_AnoNymous'),
+        InlineKeyboardButton('My Father 🧑', url='https://t.me/kichuxd),
         InlineKeyboardButton('About 📕', callback_data='about')
         ],[
         InlineKeyboardButton('Help 💡', callback_data='help'),
         InlineKeyboardButton('Settings ⚙', callback_data='settings')
         ],[
-        InlineKeyboardButton('Open Source Repository 🌐', url='https://github.com/Ns-AnoNymouS/jiosaavn')
+        InlineKeyboardButton('Update Channel, url='https://t.me/Dramaship')
     ]]
     if isinstance(message, Message):
         await message.reply_text(text, reply_markup=InlineKeyboardMarkup(buttons), quote=True)
@@ -68,9 +68,9 @@ async def about(client: Bot, message: Message|CallbackQuery):
         f"**🤖 Bot Name:** {me.mention()}\n\n"
         "**📝 Language:** [Python 3](https://www.python.org/)\n\n"
         "**🧰 Framework:** [Pyrogram](https://github.com/pyrogram/pyrogram)\n\n"
-        "**👨‍💻 Developer:** [Anonymous](https://t.me/Ns_AnoNymouS)\n\n"
-        "**📢 Updates Channel:** [NS Bots](https://t.me/NsBotsOfficial)\n\n"
-        "**👥 Support Group:** [AMC Support](https://t.me/amcDevSupport)\n\n"
+        "**👨‍💻 Developer:** [owner](https://t.me/kichuxd)\n\n"
+        "**📢 Updates Channel:** [Updates](https://t.me/Dramaship)\n\n"
+        "**🤖 Others Bots:** [DramaShip Bot](https://t.me/DramaShip1bot)\n\n"
         "**🔗 Source Code:** [GitHub Repository](https://github.com/Ns-AnoNymouS/jiosaavn)\n\n"
     )
 
